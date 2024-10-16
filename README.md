@@ -1,3 +1,16 @@
+This repository contains the R script used for sub-clustering analyses, Supplementary Table 2, and a ShinyApp script for the scRNA-seq analysis used for the manuscript “Barcoding Notch signaling in the developing brain” (https://www.biorxiv.org/content/10.1101/2024.05.10.593533v1)
+
+All raw sequencing files and processed objects can be downloaded at GEO accession GSE268356.
+
+Overview
+We provide an extensive scRNA-seq dataset collected from 21-23 dpf juvenile zebrafish brains.  We sequenced 156,353 cells and retained 148,853 cells for downstream analysis after quality filtering. Using a combination of initial coarse-grained computational clustering and subsequent rounds of iterative clustering, we classified 137 neuronal, non-neuronal and progenitor cell subtypes and cell states.  
+
+Description
+
+Master script:  this R script details the iterative sub-clustering steps used for clustering analyses and plot generation.  To replicate this analysis with our sub-cluster annotations, the processed objects are available for download at GEO accession GSE268356.
+
+Supplementary Table 2: contains cell type annotations for the full dataset, as well as a list of DEGs for each sub-cluster.  (R script used to create DEG lists for each sub-cluster provided within the master script).
+
 # Exploring the gene expression using R Shiny App
 This Shiny App is created to visualize gene expression data across all the Seurat objects used for the study **Barcoding Notch signaling in the developing brain** by Abigail Siniscalco, Roshan Priyarangana Perera, Jessie E. Greenslade, Aiden Masters, Hannah Doll, and Bushra Raj.
 ## Use the following steps to exploring the gene expression using R Shiny App.
