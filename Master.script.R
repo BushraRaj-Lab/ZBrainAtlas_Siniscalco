@@ -354,8 +354,8 @@ hyp.ids <- c("0"= "Hyp_1",
              "6"= "Hyp_6",
              "7"= "SubPal_8")
 
-# Furhter sub-clustering of the Hypothalamus resolved two SubPallium sub-clusters.
-# SubPal_7 expression of synpr, sp8a aligns with known SubPallial cluster.
+# Further sub-clustering of the Hypothalamus resolved two SubPallium sub-clusters.
+# SubPal_7 expression of synpr, sp8a aligns with known SubPallium cluster.
 # SubPal_8 expression of lhx6, nkx2.1, sst1.1, & sox6 aligns with markers of interneurons derived from the SubPallium.
 
 hyp.sub.res.0.2.rename <- RenameIdents(hyp.sub.res.0.2, hyp.ids)
@@ -981,7 +981,7 @@ Tel.ids <-c('0'='Tel_IN',
             '7'='HB_3')
 
 #most telencephalon neurons represented as pallium or subpallium.
-#only cluster 1 & 2 showed some Telencephalon markers, as well as have markers of immature/new neurons.
+#only cluster 0 & 1 showed some Telencephalon markers, as well as have markers of immature/new neurons.
 #re-labeled clusters 2-7 based on DEG markers. 
 
 Tel.res.0.4.rename <- RenameIdents(Tel.res.0.4.rename, Tel.ids)
